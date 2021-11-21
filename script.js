@@ -14,6 +14,12 @@ fetch('object.json').then(response => {
         img2.style.width = "500px";
         img2.style.height = "500px";
         container.append(img2);
+
+        let img3 = document.createElement("img");
+        img3.src = result.Awawaw;
+        img3.style.width = "500px";
+        img3.style.height = "500px";
+        container.append(img3);
     })
 })
 
